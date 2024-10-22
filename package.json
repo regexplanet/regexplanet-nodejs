@@ -1,16 +1,20 @@
 {
-  "name": "regexplanet-js",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "build": "true",
-    "start": "node app.js"
+  "dependencies": {
+    "@regexplanet/common": "npm:@jsr/regexplanet__common@^1.2.0",
+    "@regexplanet/template": "npm:@jsr/regexplanet__template@^1.2.0"
   },
-  "dependencies": {},
-  "engines": {
-    "node": "15"
+  "devDependencies": {
+    "@types/node": "^22.7.8",
+    "typescript": "^5.6.3"
   },
+  "main": "dist/server.js",
+  "name": "regexplanet-nodejs",
   "repository": {
-    "url": "https://www.github.com/fileformat/regexplanet-js"
-  }
+    "url": "https://www.github.com/fileformat/regexplanet-nodejs"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }
