@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@regexplanet/common": "npm:@jsr/regexplanet__common@^1.2.0",
-    "@regexplanet/template": "npm:@jsr/regexplanet__template@^1.2.0"
+    "@regexplanet/common": "npm:@jsr/regexplanet__common@^1.2.1",
+    "@regexplanet/template": "npm:@jsr/regexplanet__template@^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.7.8",
